@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ /* .date-picker {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: darkgrey;
   }
-}
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    cursor: pointer;
+  }
+  
+  td.selected {
+    background-color: #b8daff;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .icon{
+    display: flex;
+    gap: 10px;
+    width: auto;
+   justify-content: center
+  }
+  button{
+    cursor: pointer;
+  } 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+     */
+
+
+.selectdate {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.selectdate h3 {
+  color: #fff;
+  margin: 12px 0 -12px;
+  padding: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+     .calendar {
+      margin: 20px auto;
+      text-align: center;
+      width: 35%;
+      background-color: slategray;
+    }
+    .calendar table tr  {
+      color: white;
+    }
+    .header button {
+      color: #fff;
+    }
+    .header h2 {
+      color: #fff;
+    }
+    
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+ 
+    }
+    
+    .arrow {
+      font-size: 1.5rem;
+      padding: 5px;
+      margin: 0 10px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      
+    }
+    
+    th,
+    td {
+      padding: 0;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      height: 40px;
+      font-weight: 600;
+    }
+    td:hover {
+      background-color: rgb(0, 26, 255);
+    }
+    
+    thead {
+      background-color: #6b8190;
+      
+    }
+    
+    tbody tr:nth-child(even) {
+      background-color: slategrey;
+    }
+    
